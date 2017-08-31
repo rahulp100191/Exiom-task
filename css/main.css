@@ -1,8 +1,12 @@
+
+html, body {
+
+    }
 /*scroll effect*/
 .navbar-trans {
   background-color: transparent;
   border: none;
-  transition: top 1s ease;
+  /*transition: top 1s ease;*/
 }
 
 /*double row*/
@@ -27,7 +31,7 @@
 /*top nav*/
 .navbar-doublerow .navbar-top ul>li>a {
 	padding: 10px auto;
-	font-size: 17px;
+	font-size: 13px;
 
         margin-right: 9px;
 }
@@ -53,11 +57,10 @@
 }
 .navbar-doublerow .navbar-down .dropdown ul>li>a,
 .navbar-doublerow .navbar-down .dropdown ul>li>a:hover{
-  color: #000;
+  color: white;
   border-bottom: none;
 }
-.navbar-doublerow.navbar-trans.afterscroll {
-}
+
 .navbar-doublerow.navbar-trans.afterscroll {
    top:-50px;
 }
@@ -70,10 +73,16 @@
 }
 /*text*/
 .text-white,.text-white-hover:hover{color:#fff!important}
-/*fontcolor*/
-.light-grey {color:#000!important;background-color:#E6E9ED!important}
+
+
 body {
 background-color: #08324a;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: white;
+
+
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -83,3 +92,79 @@ background-color: #08324a;
 .how-it-works-home{
 background-color: red;
 }
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+.login
+{
+ border: 4px solid #CCA210;
+
+
+    border-radius: 40px;
+}
+.light-grey {
+    color: #000!important;
+    background-color: yellow!important;
+}
+.register{
+    background-color: #cca310;
+    /* border: solid; */
+    border-radius: 42px;
+    text-color: black;
+
+}
+p {
+    margin: 20px 0px 20px;
+    /* margin-left: -48px; */
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    color: #CCA210;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.textColor{
+color: black;
+}
+.header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+     border-left-color: yellow;
+        border: 1px solid yellow;
+        border-bottom: none;
+        border-top: none;
+        border-left: none;
+
+
+}
+.containerHeader{
+margin-top: 20px;
+    margin-bottom: 20px;
+}
+.verticalLine{
+
+    border-left-color: yellow;
+    border: solid yellow;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+
+}
+.image {
+
+    width: 300px;
+    height: 300px;
+         border: 8px solid #03121b;
+
+}
+
+.transImage{
+
+}
+
+
+
+
