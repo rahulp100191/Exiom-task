@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Exioms.iml" filepath="$PROJECT_DIR$/.idea/Exioms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Exioms-task.iml" filepath="$PROJECT_DIR$/.idea/Exioms-task.iml" />
     </modules>
   </component>
 </project>
