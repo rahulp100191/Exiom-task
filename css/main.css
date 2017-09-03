@@ -1,5 +1,5 @@
-html{
-overflow-x:hidden;
+html {
+    overflow-x: hidden;
 }
 /*scroll effect*/
 
@@ -225,4 +225,52 @@ th {
     font-size: 300%;
     color: #CCA210;
 }
-
+.bfh-selectbox-toggle form-control {
+    width: 135px;
+}
+.currency {
+    margin-left: 113px;
+}
+.cTable {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px
+}
+input {
+    font-size: bold;
+}
+@media only screen and (max-width: 500px) {
+    hide {
+        display: block;
+    }
+    .learn {
+        border: 6px solid whitesmoke;
+        border-radius: 40px;
+        padding: 0px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    deskHide {
+        display: none;
+    }
+}
+.menu {
+    margin-top: 1px;
+    margin-left: 74px;
+    font-size: 32px;
+}
+}
+.news {
+    font-size: 18px;
+}
+.price {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.img {
+    margin-left: 64px;
+}
+.curren {
+    margin-top: -156px;
+}
